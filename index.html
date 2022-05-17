@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html html class="h-100" lang="en">
+  <head>
+    <title>Navlet</title>
+    <link rel="icon" href="img/icon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+        <a
+          href="/"
+          class="d-flex align-items-center text-dark text-decoration-none"
+        >
+          <svg
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="40"
+            height="32"
+            viewBox="0 0 23.631 23.631"
+            style="enable-background: new 0 0 23.631 23.631"
+            xml:space="preserve"
+          >
+            <g>
+              <g>
+                <polygon
+                  points="0,0.663 9.401,0.663 15.882,7.146 15.882,14.127 5.307,3.608 5.274,22.969 0,22.969"
+                />
+                <polygon
+                  points="23.631,22.969 14.232,22.969 7.752,16.485 7.752,9.501 18.327,20.018 18.359,0.662 23.631,0.662"
+                />
+              </g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+            </g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+            <g></g>
+          </svg>
+          <span class="fs-4">Navlet</span>
+        </a>
+      </header>
+
+      <main>
+        <h1>Scroll to top with ease, well, bottom too</h1>
+        <p class="fs-5 col-md-8">
+          Navlet lets you to quickly add a scroll to top, and bottom button to
+          any webpage for better and faster scrolling. Drag the Navlet to your
+          Bookmarks Bar to quickly add buttons on any webpage you visit with
+          just a single click.
+        </p>
+        <div class="mb-3">
+          <img
+            src="img/swirly-arrow.png"
+            alt="arrow"
+            class="ms-5"
+            height="100px"
+          />
+          <a
+            id="navlet-bookmarklet"
+            href=""
+            class="ms-2 mt-5 btn btn-primary fw-bolder"
+            >Navlet</a
+          >
+        </div>
+        <p class="fs-5 col-md-8 mb-5">
+          If you can't see the Bookmarks Bar, Choose "Show Bookmarks Bar" from
+          the View menu.
+        </p>
+
+        <hr class="col-3 col-md-2 mb-5" />
+
+        <div class="row g-5">
+          <div class="col-md-6">
+            <h2>Awesome!</h2>
+            <p>
+              After you drag the button to the Bookmarks Bar, it will look
+              something like this.
+            </p>
+            <img src="img/bookmarked.png" class="img-thumbnail" alt="..." />
+          </div>
+
+          <div class="col-md-6">
+            <h2>Little more</h2>
+            <p>
+              Read more detailed instructions and documentation on using or
+              contributing to Navlet.
+            </p>
+            <a href="" class="btn btn-outline-secondary m-1"
+              >View navlet on GitHub</a
+            >
+            <a
+              href="https://github.com/rizz-wan/navlet/zipball/master"
+              class="btn btn-outline-secondary m-1"
+              >Download .zip</a
+            >
+            <a
+              href="https://github.com/rizz-wan/navlet/tarball/master"
+              class="btn btn-outline-secondary m-1"
+              >Download .tar.gz</a
+            >
+            <hr class="col-4 ms-1" />
+            <a
+              href="https://github.com/rizz-wan/navlet/fork"
+              class="btn btn-outline-primary m-1"
+              >Fork me on Github</a
+            >
+            <a href="" class="btn btn-outline-primary m-1"
+              >Create a pull request</a
+            >
+            <hr class="col-4 ms-1" />
+            <a href="" class="btn btn-outline-secondary m-1">Log an issue</a>
+          </div>
+        </div>
+      </main>
+      <footer class="pt-5 my-5 text-muted border-top">
+        <a href="https://github.com/rizz-wan" class="link-secondary"
+          >rizz-wan</a
+        >
+        maintains
+        <a href="https://github.com/rizz-wan/navlet" class="link-secondary"
+          >navlet</a
+        >
+      </footer>
+    </div>
+  </body>
+  <script>
+    let bookmarkletUrl = "";
+    fetch("./navlet.min.js")
+      .then((response) => response.text())
+      .then((data) => {
+        bookmarkletUrl =
+          "javascript:" +
+          encodeURIComponent("(function(){" + data.trim() + "})();");
+        const bookmarklet = document.getElementById("navlet-bookmarklet");
+        bookmarklet.href = bookmarkletUrl;
+      });
+  </script>
+</html>
