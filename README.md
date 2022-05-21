@@ -1,5 +1,9 @@
 # Navlet
 
+## Scroll to top with ease, well, bottom too
+
+### Navlet lets you to quickly add a scroll to top, and bottom button to any webpage for better and faster scrolling. Drag the Navlet to your Bookmarks Bar to quickly add buttons on any webpage you visit with just a single click.
+
 ## License
 
 MIT License
