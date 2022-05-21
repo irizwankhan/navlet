@@ -2,7 +2,7 @@
 
 A chrome extension to add scroll to top button on any page
 
-![navlet](images/navlet.png)
+![navlet](img/navlet.png)
 
 ## Setup
 
@@ -12,7 +12,7 @@ A chrome extension to add scroll to top button on any page
 
 - Turn on the `Developer mode`.
 
-![developer mode](images/dev.png)
+![developer mode](img/dev.png)
 
 - Click on `Load unpacked` and select the extension root folder.
 

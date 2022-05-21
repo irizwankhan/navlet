@@ -40,18 +40,18 @@ const restore = document.createElement("button");
 });
 // Element customizations
 buttonTop.style.backgroundImage =
-  "url('https://github.com/rizz-wan/navlet/extension/raw/main/images/t.png')";
+  "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/t.png')";
 buttonTop.setAttribute("id", "navlet-top");
 buttonTop.style.margin = "8px 24px 6px 8px";
 
 buttonBottom.style.backgroundImage =
-  "url('https://github.com/rizz-wan/navlet/extension/raw/main/images/b.png')";
+  "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/b.png')";
 buttonBottom.setAttribute("id", "navlet-bottom");
 buttonBottom.style.margin = "6px 24px 8px 8px";
 
 restore.style.backgroundImage = isTrayVisible
-  ? "url('https://github.com/rizz-wan/navlet/extension/raw/main/images/r.png')"
-  : "url('https://github.com/rizz-wan/navlet/extension/raw/main/images/l.png')";
+  ? "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/r.png')"
+  : "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/l.png')";
 restore.setAttribute("id", "navlet-restore");
 restore.style.bottom = "56px";
 restore.style.borderTopLeftRadius = "12px";
@@ -96,13 +96,13 @@ function restoreTray() {
     isTrayVisible = false;
     restore.style.backgroundPositionX = "center";
     restore.style.backgroundImage =
-      "url('https://github.com/rizz-wan/navlet/extension/raw/main/images/l.png')";
+      "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/l.png')";
   } else {
     document.getElementById("navlet-tray").style.display = "block";
     isTrayVisible = true;
     restore.style.backgroundPositionX = "6px";
     restore.style.backgroundImage =
-      "url('https://github.com/rizz-wan/navlet/extension/raw/main/images/r.png')";
+      "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/r.png')";
   }
 }
 const pi = Math.PI;
