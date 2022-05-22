@@ -6,6 +6,10 @@ Navlet lets you to quickly add a scroll to top, and bottom button to any webpage
 
 Head over [**here**](https://rizz-wan.github.io/navlet/) to see it in action, use, and more!
 
+OR
+
+Take a look at the [**extension**](https://github.com/rizz-wan/navlet/tree/main/extension) version of it.
+
 ## License
 
 MIT License
