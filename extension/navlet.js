@@ -4,8 +4,8 @@ const tray = document.createElement("div");
 tray.setAttribute("id", "navlet-tray");
 tray.style.bottom = "14px";
 tray.style.border = "2px solid rgba(0,0,0,0)";
-tray.style.borderTopLeftRadius = "24px";
-tray.style.borderBottomLeftRadius = "24px";
+tray.style.borderTopLeftRadius = "22px";
+tray.style.borderBottomLeftRadius = "22px";
 tray.style.background = "rgba(255,255,255,0.75)";
 tray.style.backdropFilter = "blur(8px)";
 
@@ -34,26 +34,25 @@ const restore = document.createElement("button");
 });
 [buttonTop, buttonBottom].forEach((item) => {
   item.style.fontSize = "20px";
-  item.style.height = "38px";
-  item.style.width = "38px";
+  item.style.height = "32px";
+  item.style.width = "32px";
   item.style.borderRadius = "20px";
+  item.style.margin = "4px 18px 6px 4px";
 });
 // Element customizations
 buttonTop.style.backgroundImage =
   "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/t.png')";
 buttonTop.setAttribute("id", "navlet-top");
-buttonTop.style.margin = "8px 24px 6px 8px";
 
 buttonBottom.style.backgroundImage =
   "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/b.png')";
 buttonBottom.setAttribute("id", "navlet-bottom");
-buttonBottom.style.margin = "6px 24px 8px 8px";
 
 restore.style.backgroundImage = isTrayVisible
   ? "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/r.png')"
   : "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/l.png')";
 restore.setAttribute("id", "navlet-restore");
-restore.style.bottom = "56px";
+restore.style.bottom = "47px";
 restore.style.borderTopLeftRadius = "12px";
 restore.style.borderBottomLeftRadius = "12px";
 restore.style.height = "24px";
