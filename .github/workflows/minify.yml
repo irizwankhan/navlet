@@ -14,7 +14,6 @@ jobs:
         with:
           js_engine: uglify-js
           maxdepth: 1
-          overwrite: true
 
       # Auto commits minified content to the existing files
       - name: Auto commit minified files
