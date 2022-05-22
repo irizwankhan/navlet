@@ -13,7 +13,7 @@ jobs:
         uses: nizarmah/auto-minify@v2.1
         with:
           js_engine: uglify-js
-          maxdepth: 0
+          maxdepth: 1
           overwrite: true
 
       # Auto commits minified content to the existing files
