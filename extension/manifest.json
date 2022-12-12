@@ -1,6 +1,6 @@
 {
   "name": "navlet",
-  "description": "Extension to open a panel on any page in chrome",
+  "description": "Add scroll to top button on any page",
   "version": "1.0",
   "manifest_version": 3,
   "action": {},
