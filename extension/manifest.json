@@ -18,6 +18,5 @@
       "matches": ["https://*/*"],
       "js": ["navlet.js"]
     }
-  ],
-  "permissions": ["activeTab", "scripting"]
+  ]
 }
