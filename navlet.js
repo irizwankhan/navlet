@@ -28,7 +28,7 @@ const restore = document.createElement("button");
 });
 [restore, tray].forEach((item) => {
   item.style.borderRight = "0";
-  item.style.zIndex = "999999";
+  item.style.zIndex = "2147483647";
   item.style.position = "fixed";
   item.style.right = "0";
 });
