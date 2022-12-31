@@ -4,11 +4,11 @@
 
 Navlet lets you to quickly add a scroll to top, and bottom button to any webpage for better and faster scrolling. Drag the Navlet to your Bookmarks Bar to quickly add buttons on any webpage you visit with just a single click.
 
-Head over [**here**](https://rizz-wan.github.io/navlet/) to see it in action, use, and more!
+Head over [**here**](https://irizwankhan.github.io/navlet/) to see it in action, use, and more!
 
 OR
 
-Take a look at the [**extension**](https://github.com/rizz-wan/navlet/tree/main/extension) version of it.
+Take a look at the [**extension**](https://github.com/irizwankhan/navlet/tree/main/extension) version of it.
 
 ## License
 

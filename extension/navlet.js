@@ -42,16 +42,16 @@ const restore = document.createElement("button");
 });
 // Element customizations
 buttonTop.style.backgroundImage =
-  "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/t.png')";
+  "url('https://github.com/irizwankhan/navlet/raw/main/extension/img/t.png')";
 buttonTop.setAttribute("id", "navlet-top");
 
 buttonBottom.style.backgroundImage =
-  "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/b.png')";
+  "url('https://github.com/irizwankhan/navlet/raw/main/extension/img/b.png')";
 buttonBottom.setAttribute("id", "navlet-bottom");
 
 restore.style.backgroundImage = isTrayVisible
-  ? "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/r.png')"
-  : "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/l.png')";
+  ? "url('https://github.com/irizwankhan/navlet/raw/main/extension/img/r.png')"
+  : "url('https://github.com/irizwankhan/navlet/raw/main/extension/img/l.png')";
 restore.setAttribute("id", "navlet-restore");
 restore.style.bottom = "47px";
 restore.style.borderTopLeftRadius = "12px";
@@ -98,13 +98,13 @@ function restoreTray() {
     isTrayVisible = false;
     restore.style.backgroundPositionX = "center";
     restore.style.backgroundImage =
-      "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/l.png')";
+      "url('https://github.com/irizwankhan/navlet/raw/main/extension/img/l.png')";
   } else {
     document.getElementById("navlet-tray").style.display = "block";
     isTrayVisible = true;
     restore.style.backgroundPositionX = "6px";
     restore.style.backgroundImage =
-      "url('https://github.com/rizz-wan/navlet/raw/main/extension/img/r.png')";
+      "url('https://github.com/irizwankhan/navlet/raw/main/extension/img/r.png')";
   }
 }
 const pi = Math.PI;
