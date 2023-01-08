@@ -6,7 +6,7 @@ A chrome extension to add scroll to top button on any page
 
 ## Setup
 
-- Clone the repo or [download](https://github.com/irizwankhan/navlet/archive/refs/heads/master.zip) the .zip and extract it.
+- Clone the repo or [download](https://github.com/rizz-wan/navlet/archive/refs/heads/master.zip) the .zip and extract it.
 
 - Navigate to `chrome://extensions` in Google Chrome.
 
@@ -18,9 +18,9 @@ A chrome extension to add scroll to top button on any page
 
 ## Feedback & Contribution
 
-- If you find any bugs or issues please report them on the [Issue Tracker](https://github.com/irizwankhan/navlet/issues).
+- If you find any bugs or issues please report them on the [Issue Tracker](https://github.com/rizz-wan/navlet/issues).
 
-> If you would like to contribute to this project please consider [forking this repo](https://github.com/irizwankhan/navlet/fork), making your changes and then creating a new [Pull Request](https://github.com/irizwankhan/navlet/pulls) back to the main code repository.
+> If you would like to contribute to this project please consider [forking this repo](https://github.com/rizz-wan/navlet/fork), making your changes and then creating a new [Pull Request](https://github.com/rizz-wan/navlet/pulls) back to the main code repository.
 
 ## License
 
