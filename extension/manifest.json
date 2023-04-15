@@ -1,7 +1,7 @@
 {
   "name": "Navlet - Scroll to top and bottom",
   "description": "Add scroll to top button on any page",
-  "version": "1.3",
+  "version": "1.4",
   "manifest_version": 3,
   "action": {},
   "icons": {
